@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faiz Dhabit Harfanda Manurung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="chrome">
+    <div class="path"><span class="dot"></span> ~/faiz-dhabit-manurung <span class="long">— profil</span></div>
+    <div class="status">kelas X RPL 1</div>
+  </div>
+
+  <div class="tabbar" id="tabbar">
+    <button class="tab active" data-target="about">about.js</button>
+    <button class="tab" data-target="skills">skills.json</button>
+    <button class="tab" data-target="gallery">kegiatan.md</button>
+    <button class="tab" data-target="journey">journey.log</button>
+    <button class="tab" data-target="contact">contact.sh</button>
+  </div>
+
+  <div class="body">
+    <div class="sidebar" id="sidebar">
+      <div class="root">~/profil</div>
+      <div class="file active" data-target="about"><span class="bar">├─</span> about.js</div>
+      <div class="file" data-target="skills"><span class="bar">├─</span> skills.json</div>
+      <div class="file" data-target="gallery"><span class="bar">├─</span> kegiatan.md</div>
+      <div class="file" data-target="journey"><span class="bar">├─</span> journey.log</div>
+      <div class="file" data-target="contact"><span class="bar">└─</span> contact.sh</div>
+    </div>
+
+    <div class="content">
+
+      <!-- ABOUT -->
+      <div class="pane active" id="about">
+        <div class="hero-name">Faiz Dhabit Harfanda Manurung<span class="cursor"></span></div>
+        <p class="hero-tagline">Siswa SMK jurusan Rekayasa Perangkat Lunak yang senang ngoprek kode, belajar hal baru, dan pelan-pelan membangun proyek dari nol.</p>
+
+        <div class="contact-list">
+          <div class="row"><span class="key">nama</span><span class="val">Faiz Dhabit Harfanda Manurung</span></div>
+          <div class="row"><span class="key">panggilan</span><span class="val">Faiz</span></div>
+          <div class="row"><span class="key">status</span><span class="val">Pelajar</span></div>
+          <div class="row"><span class="key">sekolah</span><span class="val">SMK Tritech Informatika Medan</span></div>
+          <div class="row"><span class="key">kelas</span><span class="val">X RPL 1</span></div>
+          <div class="row"><span class="key">eskul</span><span class="val">Paskibra</span></div>
+          <div class="row"><span class="key">hobi</span><span class="val">Bermain game</span></div>
+          <div class="row"><span class="key">alamat</span><span class="val">Komplek Albarokah, Jl. Mina No. 4, Sampali</span></div>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-text">"Disiplin di lapangan upacara, tekun di depan layar — dua dunia berbeda, satu semangat yang sama untuk terus berkembang."</div>
+          <div class="quote-by">— motto Faiz</div>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="pane" id="skills">
+        <h2 class="section-title">kemampuan &amp; tools</h2>
+
+        <div class="skill-group">
+          <div class="label">BAHASA PEMROGRAMAN</div>
+          <div class="skill-row"><span class="name">HTML</span><div class="skill-bar"><span style="width:70%"></span></div></div>
+          <div class="skill-row"><span class="name">CSS</span><div class="skill-bar"><span style="width:60%"></span></div></div>
+          <div class="skill-row"><span class="name">Java</span><div class="skill-bar"><span style="width:35%"></span></div></div>
+          <div class="skill-row"><span class="name">JavaScript</span><div class="skill-bar"><span style="width:25%"></span></div></div>
+        </div>
+
+        <div class="skill-group">
+          <div class="label">TOOLS</div>
+          <div class="skill-row"><span class="name">VS Code</span><div class="skill-bar"><span style="width:60%"></span></div></div>
+          <div class="skill-row"><span class="name">Git & GitHub</span><div class="skill-bar"><span style="width:30%"></span></div></div>
+        </div>
+
+        <div class="skill-group">
+          <div class="label">SEDANG DIPELAJARI</div>
+          <div class="skill-row"><span class="name">Dasar Basis Data</span><div class="skill-bar"><span style="width:20%"></span></div></div>
+          <div class="skill-row"><span class="name">Struktur & Logika Pemrograman</span><div class="skill-bar"><span style="width:30%"></span></div></div>
+        </div>
+      </div>
+
+      <!-- GALLERY -->
+      <div class="pane" id="gallery">
+        <h2 class="section-title">dokumentasi kegiatan</h2>
+        <p class="hero-tagline" style="margin-bottom:24px;">Beberapa momen dari kegiatan sehari-hari — Paskibra, main game, dan lainnya. Ganti kotak di bawah dengan foto asli kamu.</p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img class="gallery-placeholder" src="musang.jpg.jpeg">
+            <div class="gallery-caption">Foto Musang</div>
+          </div>
+          <div class="gallery-item">
+            <img class="gallery-placeholder" src="musang1.jpg.jpeg">
+            <div class="gallery-caption">History Game</div>
+          </div>
+          <div class="gallery-item">
+            <img class="gallery-placeholder" src="musang1.jpg.jpeg">
+            <div class="gallery-caption">Kegiatan kelas X RPL 1</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JOURNEY -->
+      <div class="pane" id="journey">
+        <h2 class="section-title">jejak perjalanan</h2>
+
+        <div class="log-entry">
+          <div class="log-time">SD–SMP</div>
+          <div class="log-text">
+            <div class="title">Mulai tertarik dengan komputer</div>
+            <div class="desc">Penasaran dengan bagaimana aplikasi dan website bekerja di balik layar.</div>
+          </div>
+        </div>
+        <div class="log-entry">
+          <div class="log-time">2025</div>
+          <div class="log-text">
+            <div class="title">Masuk SMK Tritech Informatika Medan</div>
+            <div class="desc">Memilih jurusan Rekayasa Perangkat Lunak, resmi jadi siswa Kelas X RPL 1.</div>
+          </div>
+        </div>
+        <div class="log-entry">
+          <div class="log-time">2025</div>
+          <div class="log-text">
+            <div class="title">Bergabung dengan Paskibra</div>
+            <div class="desc">Ikut eskul Paskibra, belajar disiplin, kekompakan, dan kerja sama tim di luar kelas.</div>
+          </div>
+        </div>
+        <div class="log-entry">
+          <div class="log-time">Sekarang</div>
+          <div class="log-text">
+            <div class="title">Belajar dasar-dasar pemrograman</div>
+            <div class="desc">Mulai mengenal HTML, CSS, dan logika dasar pemrograman di kelas, sambil tetap aktif di Paskibra.</div>
+          </div>
+        </div>
+        <div class="log-entry">
+          <div class="log-time">Ke depan</div>
+          <div class="log-text">
+            <div class="title">Target belajar lebih dalam</div>
+            <div class="desc">Ingin lebih mahir membangun website dan aplikasi sederhana selama di RPL.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="pane" id="contact">
+        <h2 class="section-title">hubungi saya</h2>
+
+        <div class="contact-list">
+          <div class="row"><span class="key">email</span><span class="val">faizzkece11@gmail.com</span></div>
+          <div class="row"><span class="key">github</span><span class="val">github.com/izzcwocuekk</span></div>
+          <div class="row"><span class="key">instagram</span><span class="val">instagram.com/izz_cull</span></div>
+          <div class="row"><span class="key">tiktok</span><span class="val">tiktok.com/@izzcwocuek</span></div>
+          <div class="row"><span class="key">alamat</span><span class="val">Komplek Albarokah, Jl. Mina No. 4, Sampali</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer>dibuat dengan ✦ oleh Faiz Dhabit Harfanda Manurung</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
